@@ -1,0 +1,9 @@
+# local files
+__pycache__
+.venv
+highlight
+snapshots
+qdrant_storage
+storage
+*.log
+qdrant/
