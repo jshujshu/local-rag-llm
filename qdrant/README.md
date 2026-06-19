@@ -1,0 +1,1 @@
+This is where Qdrant lives. Having it here helps keeps things organized. 
