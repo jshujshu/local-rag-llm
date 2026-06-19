@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+pydantic
+torch
+transformers
+accelerate
+sentence-transformers
+qdrant-client
+uuid
+requests
