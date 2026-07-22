@@ -1,11 +1,17 @@
-fastapi
-uvicorn
-streamlit
-pydantic
-torch
-transformers
-accelerate
-sentence-transformers
-qdrant-client
-uuid
-requests
+# Direct dependencies — versions pinned to pip-audit-verified clean set (2026-07-22)
+fastapi==0.139.2
+uvicorn==0.51.0
+streamlit==1.60.0
+pydantic==2.13.4
+torch==2.13.0
+transformers==5.14.1
+accelerate==1.14.0
+sentence-transformers==5.6.0
+qdrant-client==1.18.0
+requests==2.34.2
+bitsandbytes==0.49.2
+tiktoken==0.13.0
+sentencepiece==0.2.2
+
+# Rate limiting (security fix — DoS prevention on /chat)
+slowapi==0.1.10
